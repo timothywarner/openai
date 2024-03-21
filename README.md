@@ -2,6 +2,8 @@
   > [Note]
   > **This repository is a work in progress and will be updated frequently with changes.**
 
+Yeah, that's right! :)
+
 # Azure OpenAI Service Samples
 
 This repo is a compilation of useful [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service) resources and code samples to help you get started and accelerate your technology adoption journey.
@@ -13,7 +15,7 @@ The Azure OpenAI service provides REST API access to OpenAI's powerful language 
 ### Prerequisites
 
 - **Azure Account** - If you're new to Azure, get an Azure account for [free](https://aka.ms/free) and you'll get some free Azure credits to get started.
-- **Azure subscription with access enabled for the Azure OpenAI Service** - For more details, see the [Azure OpenAI Service documentation on how to get access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai). 
+- **Azure subscription with access enabled for the Azure OpenAI Service** - For more details, see the [Azure OpenAI Service documentation on how to get access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai).
 - **Azure OpenAI resource** - For these samples, you'll need to deploy models like GPT-3.5 Turbo, GPT 4, DALL-E, and Whisper. See the Azure OpenAI Service documentation for more details on [deploying models](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal) and [model availability](https://learn.microsoft.com/azure/ai-services/openai/concepts/models).
 
 ### Project setup
@@ -37,7 +39,7 @@ If you prefer to run these samples locally, you'll need to install and configure
   - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
   - [Polyglot Notebooks VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
 - [NodeJS](https://nodejs.org/)
-  
+
 
 ### Navigating the repo
 
@@ -103,7 +105,7 @@ There are three main approaches for in-context learning: Few-shot, one-shot and 
     Q: Tell Constance that I won't be home before 19:30 tonight — unmovable meeting.
     A: send-msg `find constance` I won't be home before 19:30 tonight. I have a meeting I can't move.
     Q: Tell John that I need to book an appointment at 10:30
-    A: 
+    A:
 The number of examples typically range from 0 to 100 depending on how many can fit in the maximum input length for a single prompt. Maximum input length can vary depending on the specific models you use. Few-shot learning enables a major reduction in the amount of task-specific data required for accurate predictions. This approach will typically perform less accurately than a fine-tuned model.
 
 **One-shot**: This case is the same as the few-shot approach except only one example is provided.
@@ -138,8 +140,8 @@ More details on the RAI guidelines for the Azure OpenAI Service can be found [he
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
