@@ -2,8 +2,6 @@
   > [Note]
   > **This repository is a work in progress and will be updated frequently with changes.**
 
-Yeah, that's right! :)
-
 # Azure OpenAI Service Samples
 
 This repo is a compilation of useful [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service) resources and code samples to help you get started and accelerate your technology adoption journey.
